@@ -1,9 +1,8 @@
 /** @format */
 
-import { useContext, useState } from "react";
+import { useState } from "react";
 import { Route, Routes, Link } from "react-router-dom";
 import "./App.css";
-import Data from "./components/Data";
 import DataList from "./components/DataList";
 import HomePage from "./components/pages/HomePage";
 import MyCart from "./components/pages/MyCart";
@@ -13,9 +12,9 @@ function App() {
   let [item, setItem] = useState([]);
   return (
     <div className="App">
-      <div>
-        I am the Head
-        <Link to="/HomePage">Home</Link>*<Link to="/Products">Products</Link>*
+      <div className="headerLinks container">
+        <Link to="/HomePage">Home</Link>
+        <Link to="/Products">Products</Link>
         <Link to="/MyCart">MyCart</Link>
       </div>
       <Routes>

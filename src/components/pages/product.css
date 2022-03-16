@@ -8,3 +8,8 @@
   margin: auto;
   margin-top: 2%;
 }
+
+.container {
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+}
