@@ -3,3 +3,11 @@
 .App {
   text-align: center;
 }
+.headerLinks {
+  background-color: lightgray;
+  color: blue;
+}
+.container {
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+}

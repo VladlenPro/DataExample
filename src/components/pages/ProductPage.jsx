@@ -39,14 +39,5 @@ function ProductPage(props) {
     </div>
   );
 }
-//     id={item.id}
-//     title={item.title}
-//     price={item.price}
-//     description={item.description}
-//     category={item.category}
-//     image={item.image}
-//     rate={item.rating.rate}
-//     count={item.rating.count}
-//   >
 
 export default ProductPage;

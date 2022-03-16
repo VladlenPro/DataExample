@@ -1,12 +1,10 @@
 /** @format */
 
 import React, { useState, useEffect } from "react";
-import { Link, useParams } from "react-router-dom";
-import Data from "./Data";
+import { Link } from "react-router-dom";
 
 function DataList(props) {
   let [data, setData] = useState([]);
-  let [cart, setCart] = useState([]);
 
   useEffect(() => {
     fetch("https://fakestoreapi.com/products")
