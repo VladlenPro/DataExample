@@ -1,0 +1,10 @@
+/** @format */
+
+.productCard {
+  background-color: lightgray;
+  width: 400px;
+  display: flex;
+  border-radius: 5px;
+  margin: auto;
+  margin-top: 2%;
+}
