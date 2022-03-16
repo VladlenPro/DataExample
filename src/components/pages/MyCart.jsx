@@ -1,6 +1,6 @@
 /** @format */
 
-import React, { useState } from "react";
+import React from "react";
 import { Link } from "react-router-dom";
 import Data from "../Data";
 import "../pages/product.css";
