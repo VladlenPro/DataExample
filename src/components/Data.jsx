@@ -1,14 +1,11 @@
 /** @format */
 
 import React from "react";
-import { useParams } from "react-router-dom";
 import Ratings from "./Ratings";
 
 function Data(props) {
-  let { id } = useParams();
   return (
     <div>
-      <div></div>
       <h2>{props.title}</h2>
       <div>
         <img width="200px" height="200px" src={props.image} atl="a" />
